@@ -73,3 +73,5 @@ if add_sidebar == 'Aggregate Metrics':
     
 if add_sidebar == 'Individual Video Analysis':
     st.write('Ind')
+
+# create a dashboard
