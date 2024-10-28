@@ -1,0 +1,5 @@
+https://hogehoge-5001.asse.devtunnels.ms/hands-on-llm-rag-loukas/asia-northeast1/helloWorld
+https://dg0tqh6c-5001.asse.devtunnels.ms/hands-on-llm-loukas-44d13/asia-northeast1/helloWorld
+
+https://dg0tqh6c-5001.asse.devtunnels.ms/hands-on-llm-loukas-44d13/asia-northeast1/slackbot/events
+
