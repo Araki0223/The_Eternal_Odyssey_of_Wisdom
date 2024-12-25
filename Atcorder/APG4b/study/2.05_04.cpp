@@ -7,7 +7,7 @@ int complete_time(vector<vector<int>> &children, int x) {
   // (ここに追記して再帰関数を実装する)
 
   // ベースケース
-  if(children.at(x) == 0){
+  if(children.at(x).size() == 0){
     return 0;
   }
 
@@ -19,6 +19,8 @@ int complete_time(vector<vector<int>> &children, int x) {
 
     max_receive_time = max(max_receive_time, receive_time);
   }
+
+  return max_receive_time;
 }
 
 // これ以降の行は変更しなくてよい
@@ -43,3 +45,13 @@ int main() {
   // 0番の組織の元に報告書が揃う時刻を求める
   cout << complete_time(children, 0) << endl;
 }
+
+// childrenの例
+// children = {
+//     {1, 2},  // 組織 0 の子組織は 1, 2
+//     {3, 4},  // 組織 1 の子組織は 3, 4
+//     {5},     // 組織 2 の子組織は 5
+//     {},      // 組織 3 の子組織はなし
+//     {},      // 組織 4 の子組織はなし
+//     {}       // 組織 5 の子組織はなし
+// };
